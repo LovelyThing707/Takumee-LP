@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1200px) {
+}
+
+@media only screen and (min-width: 991px) {
+.banner_bt_back.active {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+    z-index: 9999;
+  left: 0px;
+  right: 0px;
+}
+}
+@media only screen and (max-width: 991px) {
+}
+
+@media screen and (min-width: 768px) {
+  .d-none-lg {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .d-none-sm {
+    display: none !important;
+  }
+  .point_desk_mob_img {
+    justify-content: space-between;
+  }
+  figure.testi_box_sec_child h4 {
+    line-height: 36px;
+  }
+  .acc_modal {
+    gap: 15px !important;
+    li {
+      width: calc(33% - 15px) !important;
+    }
+  }
+  .sm-fix-top {
+    position: fixed;
+    z-index: 99;
+    background: #fff;
+  }
+  .title.txt_center h2 {
+    margin-bottom: 0px;
+  }
+  .banner_bt_left.banner_bt_left_mob ul {
+    justify-content: center;
+  }
+  .banner {
+    padding-top: 180px;
+  }
+  .banner_bt_right {
+    position: fixed;
+    z-index: 999;
+    text-align: right;
+    width: 100%;
+    right: 0;
+  }
+  #myBtn {
+    bottom: 140px;
+  }
+  .acc_modal li a {
+    padding: 10px;
+    background: #f1f9d3;
+  }
+  .comp_services_diff h2 {
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 0px;
+    text-align: center;
+  }
+  .points_details .testi_box_sec_child {
+    margin-bottom: 40px;
+  }
+  .cust_testimonials {
+    padding: 80px 0px 40px;
+  }
+  .acc_modal li a p,
+  .modal-content p,
+  .modal-dialog.modal-dialog-lg h3 p {
+    font-size: 14px;
+  }
+}
